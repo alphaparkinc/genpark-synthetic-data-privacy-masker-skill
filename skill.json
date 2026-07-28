@@ -1,0 +1,24 @@
+{
+  "name": "genpark-synthetic-data-privacy-masker-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - PII privacy data anonymization and synthetic data masker.",
+  "author": "genpark",
+  "category": "security",
+  "tags": [
+    "security",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "text": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "masked_text": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
